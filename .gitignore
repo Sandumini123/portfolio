@@ -1,0 +1,21 @@
+# Dependencies
+/node_modules
+
+# Build outputs
+/.next
+/out
+
+# Production
+/build
+
+# Logs
+npm-debug.log*
+
+# Local environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VSCode settings
+.vscode/
