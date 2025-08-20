@@ -67,7 +67,7 @@ const Courses = () => {
   }
 
   return (
-    <section id="courses" className="py-16">
+    <section id="courses" className="py-0">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Courses & Certifications</h2>
@@ -108,7 +108,7 @@ const Courses = () => {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-8">
             <h3 className="text-xl font-semibold text-white mb-4">Continuous Learning</h3>
             <p className="text-gray-300 max-w-2xl mx-auto">
@@ -117,7 +117,7 @@ const Courses = () => {
               my testing capabilities and contribute more effectively to modern software development teams.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

@@ -79,12 +79,12 @@ const WorkExperience = () => {
                 </div>
 
                 <div className="flex-1">
-                  <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
-                    <div>
-                      <h3 className="text-2xl font-bold text-white mb-2">{exp.title}</h3>
-                      <h4 className="text-xl text-blue-400 mb-2">{exp.company}</h4>
+                  <div className="flex flex-col sm:flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                    <div className="mb-2 lg:mb-0">
+                      <h3 className="text-lg text-2xl font-bold text-white">{exp.title}</h3>
+                      <h4 className="text-sm text-xl text-blue-400">{exp.company}</h4>
                     </div>
-                    <div className="flex items-center text-gray-400">
+                    <div className="flex items-center text-gray-400 mt-2 lg:mt-0">
                       <Calendar size={16} className="mr-2" />
                       <span className="text-sm">{exp.duration}</span>
                     </div>

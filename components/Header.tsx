@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Menu, X, Github, Linkedin, Mail, Phone } from 'lucide-react'
+import { Menu, X, Github, Linkedin, Mail, Phone, PenSquare } from 'lucide-react'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -36,8 +36,8 @@ const Header = () => {
               <span className="text-white font-bold text-lg">SK</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-white">Sandumini Karunarathne</h1>
-              <p className="text-sm text-gray-400">Software Quality Assurance Engineer</p>
+              <h4 className="text-sm font-bold text-white">Sandumini Karunarathne</h4>
+              {/* <p className="text-sm text-gray-400">Software Quality Assurance Engineer</p> */}
             </div>
           </div>
 
@@ -66,8 +66,10 @@ const Header = () => {
             <a href="https://github.com/sandumini-karunarathne" className="text-gray-400 hover:text-white transition-colors">
               <Github size={20} />
             </a>
+            <a href="https://medium.com/@imanthasandaumini1" className="text-gray-400 hover:text-white transition-colors">
+              <PenSquare size={20} />
+            </a>
           </div>
-
           <button
             className="md:hidden text-gray-300 hover:text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
