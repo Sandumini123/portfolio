@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Sandumini Karunarathne - Software Quality Assurance Engineer',
+  title: 'Sandumini Karunarathne',
   description: 'Portfolio of Sandumini Karunarathne, a passionate IT and Management undergraduate specializing in software quality assurance and testing.',
   keywords: 'Software Quality Assurance, QA Engineer, IT, Software Testing, Automation Testing, Web Development',
   authors: [{ name: 'Sandumini Karunarathne' }],
